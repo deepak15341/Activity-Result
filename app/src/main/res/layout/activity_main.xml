@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:id="@+id/getNumber"
-        android:text="0"
+        android:hint="Enter the Number here"
         android:inputType="number"/>
 
     <androidx.appcompat.widget.AppCompatButton
