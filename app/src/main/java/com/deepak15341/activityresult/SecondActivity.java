@@ -20,7 +20,7 @@ public class SecondActivity extends AppCompatActivity {
 
         num2 = getIntent().getIntExtra("number", 0);
         toast = getIntent().getIntExtra("toast",1);
-        Toast.makeText(this, "Received Number is"+num2, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Received Number is "+num2, Toast.LENGTH_SHORT).show();
         AppCompatButton button = findViewById(R.id.receiveButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
